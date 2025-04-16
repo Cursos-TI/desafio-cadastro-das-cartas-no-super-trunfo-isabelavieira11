@@ -12,7 +12,7 @@ int main() {
 
     printf("O jogo Super Trunfo começa agora! Insira os dados das cartas\n\n"); 
 
-    //Dados da carta 1
+    //Dados da Carta 1 que serão digitados pelo usuário 
     printf("Carta 1\n");
 
     printf("Represente o nome do estado 1 com uma letra de A até H:\n");
@@ -35,7 +35,9 @@ int main() {
 
     printf("Digite o número de pontos turísticos da cidade 1: \n");
     scanf("%d", &ptsturisticos1);
+    //fim da entrada de dados da carta 1
 
+    //Dados que serão exibidos na tela após preenchimento do usuário da carta 1
     printf("Carta 1: \n");
     printf("Estado: %s \n", estado1);
     printf("Código: %s \n", codigo1);
@@ -44,8 +46,9 @@ int main() {
     printf("Área: %f km² \n", areakm1);
     printf("PIB: %f bilhões de reais \n", PIB1);
     printf("Número de pontos turísticos: %d \n", ptsturisticos1);
+    //fim da exibição dos dados da carta 1
 
-    //Dados da carta 2
+    //Dados da carta 2 que serão digitados pelo usuário
     
     printf("Carta 2:\n"); 
 
@@ -68,8 +71,11 @@ int main() {
     scanf("%d", &populacao2); 
 
     printf("Digite o número de pontos turísticos da cidade 2:\n"); 
-    scanf("%d", &ptsturisticos2); 
+    scanf("%d", &ptsturisticos2);
+    //fim da entrada de dados da carta 2 
 
+    
+    //Dados que serão exibidos na tela após preenchimento do usuário 
     printf("Carta 2: \n");
     printf("Estado: %s \n", estado2);
     printf("Código: %s \n", codigo2);
@@ -77,7 +83,8 @@ int main() {
     printf("População: %d \n", populacao2);
     printf("Área: %f km² \n", areakm2);
     printf("PIB: %f bilhões de reais \n", PIB2);
-    printf("Número de pontos turísticos: %d \n", ptsturisticos2); 
+    printf("Número de pontos turísticos: %d \n", ptsturisticos2);
+    //fim da exibição dos dados da carta 2 
 
 
 
